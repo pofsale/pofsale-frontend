@@ -1,0 +1,14 @@
+[
+  {
+    "id": "3fa45977-42dd-4748-8a63-ec83a1e69c46",
+    "name": "Koffie",
+    "price": 1.5,
+    "category": "Warme Dranken"
+  },
+  {
+    "id": "23c6dab6-5d3c-4e78-968b-5f9a92eca286",
+    "name": "Fanta",
+    "price": 1.5,
+    "category": "Koude Dranken"
+  }
+]
