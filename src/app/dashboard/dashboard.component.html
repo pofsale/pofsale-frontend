@@ -1,3 +1,20 @@
-<p>
-  dashboard works!
-</p>
+<div class="container">
+  <app-category-bar
+    (categorySelect)="onCategorySelect($event)"
+  ></app-category-bar>
+
+  <div class="content">
+    <h3>{{ category ? category.name : 'All' }}</h3>
+
+    <div
+      class="card"
+      *ngFor="let item of products"
+      [style.background]="category ? category.color : 'grey'"
+      (click)="onProductClicked(item)"
+    >
+      <b>{{ item.name }}</b> <small>{{ item.price }}</small>
+    </div>
+  </div>
+
+  <app-order #appOrder></app-order>
+</div>

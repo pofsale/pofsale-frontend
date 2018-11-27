@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.title {
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+
+.items-container {
+  flex: 1;
+}
+
+.orderitem {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 1px solid #c9c9c988;
+}
+
+.total-button {
+  background: green;
+  width: 100%;
+  flex: 0 0 40px;
+}
+
+.reset-button {
+  color: red;
+  float: right;
+}

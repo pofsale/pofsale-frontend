@@ -1,14 +1,56 @@
 [
   {
     "id": "3fa45977-42dd-4748-8a63-ec83a1e69c46",
-    "name": "Koffie",
+    "name": "Coffee",
     "price": 1.5,
-    "category": "Warme Dranken"
+    "category": "Hot Drinks"
   },
   {
-    "id": "23c6dab6-5d3c-4e78-968b-5f9a92eca286",
+    "id": "tea",
+    "name": "Tea",
+    "price": 1.5,
+    "category": "Hot Drinks"
+  },
+  {
+    "id": "hot-coco",
+    "name": "Hot Coco",
+    "price": 2,
+    "category": "Hot Drinks"
+  },
+  {
+    "id": "fanta",
     "name": "Fanta",
     "price": 1.5,
-    "category": "Koude Dranken"
+    "category": "Cold Drinks"
+  },
+  {
+    "id": "coke",
+    "name": "Coke",
+    "price": 1.5,
+    "category": "Cold Drinks"
+  },
+  {
+    "id": "coke-zero",
+    "name": "Coke Zero",
+    "price": 1.5,
+    "category": "Cold Drinks"
+  },
+  {
+    "id": "lays-salt",
+    "name": "Lays Salt",
+    "price": 1,
+    "category": "Snacks"
+  },
+  {
+    "id": "lays-pickels",
+    "name": "Lays Pickels",
+    "price": 1,
+    "category": "Snacks"
+  },
+  {
+    "id": "lays-paprika",
+    "name": "Lays Paprika",
+    "price": 1,
+    "category": "Snacks"
   }
 ]

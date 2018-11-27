@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: row;
+}
+
+.content {
+  padding: 16px;
+  flex: 1;
+}
+
+.card {
+  display: flex;
+  float: left;
+  cursor: pointer;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  // margin-left: 20px;
+  // box-shadow: 5px 5px 5px #00000088;
+  border: solid 1px black;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+
+  &:hover {
+    color: white;
+  }
+}
+
+app-order {
+  flex: 0 0 400px;
+  border-left: 1px solid #c9c9c9;
+}

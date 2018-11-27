@@ -1,0 +1,17 @@
+<div class="icon-bar">
+  <a
+    href="#"
+    (click)="onCategorySelected(null)"
+    [class.active]="currentCat == null"
+  >
+    <i class="fa fa-circle"></i> <span>All</span>
+  </a>
+  <a
+    href="#"
+    *ngFor="let cat of categories"
+    (click)="onCategorySelected(cat)"
+    [class.active]="currentCat == cat"
+  >
+    <i class="fa {{ cat.icon }}"></i> <span>{{ cat.name }}</span>
+  </a>
+</div>

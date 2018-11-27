@@ -1,0 +1,20 @@
+[
+  {
+    "id": "hot",
+    "name": "Hot Drinks",
+    "icon": "fa-coffee",
+    "color": "red"
+  },
+  {
+    "id": "cold",
+    "name": "Cold Drinks",
+    "icon": "fa-beer",
+    "color": "blue"
+  },
+  {
+    "id": "snacks",
+    "name": "Snacks",
+    "icon": "fa-cookie-bite",
+    "color": "brown"
+  }
+]

@@ -1,0 +1,21 @@
+<div class="container">
+  <h3 class="title">
+    Order
+    <span class="reset-button" (click)="reset()"
+      ><i class="fas fa-trash"></i
+    ></span>
+  </h3>
+
+  <div class="items-container">
+    <a
+      href="#"
+      *ngFor="let product of order"
+      class="orderitem"
+      (click)="removeProduct(product)"
+    >
+      <b>{{ product.amount }}</b> {{ product.product.name }}
+    </a>
+  </div>
+
+  <button class="total-button">Pay</button>
+</div>
